@@ -35,7 +35,6 @@ def python_text(text='is cool'):
     return 'Python {}'.format(text)
 
 
-@app.route('/number/')
 @app.route('/number/<int:n>')
 def number_text(n):
     """ replace with int only if given int. """
