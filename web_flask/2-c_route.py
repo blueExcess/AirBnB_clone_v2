@@ -21,10 +21,10 @@ def hello():
 
 
 @app.route('/c/<text>')
-def c_text(value):
+def c_text(text):
     """ replace text with variable. """
-    value = value.replace('_', ' ')
-    return 'C {}'.format(value)
+    text = text.replace('_', ' ')
+    return 'C {}'.format(text)
 
 
 if __name__ == '__main__':
