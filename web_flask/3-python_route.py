@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" 2. Script to start a Flask web application with 3 view functions """
+""" 3. Add third view func that redirects and has default val for variable """
 
 from flask import Flask
 
